@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>alvar_logger</name>
+  <version>0.1.0</version>
+  <description>Logs area of image in which alvar markers are seen</description>
+  <maintainer email="santosh.thoduka@gmail.com">Santosh Thoduka</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>ar_track_alvar</build_depend>
+
+</package>
