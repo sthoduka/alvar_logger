@@ -70,7 +70,7 @@ void AlvarLoggerNode::imageCallback(const sensor_msgs::ImageConstPtr &image)
                 cv::line(debug_image, start_point, end_point, CV_RGB(255, 0, 0), 3, CV_AA, 0);
                 if (i == 0)
                 {
-                    file_out_ << id << ", " << frame_number_ << ", " << start_point.x << ", " << start_point.y;
+                    file_out_ << frame_number_ << ", " << id << ", " << start_point.x << ", " << start_point.y;
                 }
                 else
                 {
